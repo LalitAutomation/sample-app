@@ -24,10 +24,6 @@ import (
 	"net/http"
 )
 
-#func main() {
-	#	http.HandleFunc("/blue", blueHandler)
-	#http.ListenAndServe(":8080", nil)
-	#}
 
 func main() {
 	http.HandleFunc("/blue", blueHandler)
